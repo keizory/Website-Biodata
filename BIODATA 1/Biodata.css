@@ -1,0 +1,84 @@
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #FFC55A;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.bio h1 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 24px;
+    color: #000000; 
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    background-color: #FE7A36;
+}
+
+.bio h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+    background-color: #FE7A36;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bio {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.bio p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666666;
+}
+
+.bio p strong {
+    color: #000000;
+}
+
+.bio ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.bio ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.bio ul li a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.bio ul li a:hover {
+    color: #004080;
+}
